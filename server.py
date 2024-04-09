@@ -47,5 +47,5 @@ class Server:
             self.socket.close()
 
 if __name__ == "__main__":
-    server = Server(socket.gethostname(), 21042)
+    server = Server('127.0.0.1', 33000)
     server.start()

@@ -37,5 +37,5 @@ class Client:
             print(f"Error: {e}")
 
 if __name__ == "__main__":
-    client = Client(socket.gethostname(), 21042)
+    client = Client('127.0.0.1', 33000)
     client.connect()
